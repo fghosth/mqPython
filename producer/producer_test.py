@@ -30,9 +30,9 @@ def RabbitmqProducerTest():
 
 # ali amqp 发送测试
 def AliAMQPProducerTest():
-    ak = "LTAI4FqHC1FBWvsYEn68dXQK"
-    sk = "6akk4wed4ZyMIR95voqGxZ17Z0z0w1"
-    instanceId = "1551953348333975"  # // 请替换成您阿里云AMQP控制台首页instanceId
+    ak = "x"
+    sk = "x"
+    instanceId = "x"  # // 请替换成您阿里云AMQP控制台首页instanceId
     cred = credentials.AliyunCredentialsProvider(access_key=ak, access_secret=sk, instanceId=instanceId)
     user = cred.get_username()
     pwd = cred.get_password()
